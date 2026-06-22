@@ -75,10 +75,7 @@ export default function Expenses({setActive}){
           ))}
         </div>
         {/* Date range */}
-        <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:8,marginBottom:12}}>
-          <input className="field" type="date" value={from} onChange={e=>setFrom(e.target.value)} style={{fontSize:13}}/>
-          <input className="field" type="date" value={to} onChange={e=>setTo(e.target.value)} style={{fontSize:13}}/>
-        </div>
+        
         <button className="btn btn-primary mb16" onClick={()=>setShowAdd(true)}>+ Add New Expense</button>
         {filtered.length===0?(
           <div style={{textAlign:'center',padding:'56px 24px',color:'var(--faint)'}}>
