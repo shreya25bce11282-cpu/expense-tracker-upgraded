@@ -71,7 +71,7 @@ export default function Profile({setActive}){
 
       <div style={{padding:'0 16px'}}>
         {/* Profile card */}
-        <div className="card" style={{padding:20,marginTop:-44,textAlign:'center',marginBottom:12}}>
+        <div className="card" style={{padding:20,marginTop:44,textAlign:'center',marginBottom:12}}>
           <h2 style={{margin:'0 0 4px',fontSize:22,fontWeight:900,color:'var(--text)',letterSpacing:'-0.3px'}}>{state.user.name}</h2>
           <p style={{margin:'0 0 2px',color:'var(--muted)',fontSize:14}}>{state.user.branch}</p>
           <p style={{margin:'0 0 2px',color:'var(--muted)',fontSize:14}}>{state.user.college}</p>
